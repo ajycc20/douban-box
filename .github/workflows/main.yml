@@ -28,7 +28,7 @@ jobs:
         run: |
           douban-box
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
-          GIST_ID: ae3d7edbac6d69f6088a8eedd956ca0b
-          DOUBAN_ID: daraw
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: 071148d0fc81dd1be5c5c21c18af5bfc
+          DOUBAN_ID: ajycc20
           DOUBAN_COOKIE: ${{ secrets.DOUBAN_COOKIE }}
